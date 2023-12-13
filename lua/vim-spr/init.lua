@@ -1,14 +1,9 @@
 local M = {}
 
-function M.setup(opts)
-	opts = opts or {}
-
+function M.setup()
 	vim.keymap.set("n", "<Leader>h", function()
-		if opts.name then
-			print("spr status" .. opts.name)
-		else
-			print("spr status")
-		end
+		vim.api.nvim_command("git spr status")
+		print("spr status completed")
 	end)
 end
 
