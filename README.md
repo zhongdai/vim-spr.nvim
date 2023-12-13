@@ -2,9 +2,7 @@
 
 Run spr command in nvim,
 
-- `<Leader>ps` - `git spr status`
-- `<Leader>pu` - `git spr update`
-- `<Leader>pm` - `git spr merge`
+- `<Leader>h` - `git spr status`
 
 ## 📦 Installation
 
